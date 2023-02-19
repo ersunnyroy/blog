@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.posts {
+  height: auto;
+  width: 400px;
+  margin: auto;
+}
+
+.title
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer
+{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.posts .title , .footer {
+  height: 40px;
+  padding: 10px;
+  background: blue;
+  color: #fff;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-bottom:1.5em;
+  
+}
+
+.posts .body {
+  padding:20px;
+  height: 100px;
+}
